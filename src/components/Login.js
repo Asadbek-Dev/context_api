@@ -5,7 +5,7 @@ const Login = () => {
     const { setUsername,setShowProfile }=useContext(LoginContext);
 
     return (
-        <div>
+        <div className='inputs_div'>
             <input
              type="text"
              placeholder='Username...'
